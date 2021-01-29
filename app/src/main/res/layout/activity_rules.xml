@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/main"
+    tools:context=".Class.Rules">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/banner_2"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/card"
+        android:layout_marginLeft="11dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="11dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="30dp"
+        app:cardElevation="@dimen/cardview_default_elevation"
+        app:cardCornerRadius="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Luật chung"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@color/text"
+        android:gravity="center"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="•Trong Xì tố ở Việt Nam có thể chơi 2 - 6 người."
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/text"
+        android:gravity="left" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="•Người chơi sử dụng Bài Tây nhưng loại bỏ đi các lá bài số từ 2 cho đến 6 (chỉ chơi các lá bài 7 đến A), trong đó 7 là lá bài thấp nhất, A là lá bài lớn nhất, tổng số lá bài chơi là 32 lá."
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/text"
+        android:gravity="left"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="•Các chất của lá bài cũng không có ý nghĩa gì cả, chỉ xét độ lớn của các lá bài."
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/text"
+        android:gravity="left"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="•Ban đầu phát 2 lá bài, người chơi phải mở 1 lá bài (lá còn lại úp) cho đối phương nhìn thấy, sau đó dùng cọc bài còn lại phát cho mỗi người cũng 1 lá bài mở, người chơi có thể bắt đầu tố, người đầu tiên tố là người có độ lớn bài lớn nhất, vòng tố đi ngược chiều kim đồng hồ. Cách tố đơn giản:"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/text"
+        android:gravity="left"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

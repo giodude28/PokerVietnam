@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1019025687758",
+    "project_id": "trm-x-t",
+    "storage_bucket": "trm-x-t.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019025687758:android:7de59cd9305705fb3c3c9f",
+        "android_client_info": {
+          "package_name": "io.gio.vietnampoker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1019025687758-0c0rmv9asqfva3uemv3qh1l9vk8lilnb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBudGQ6_Hwsz7wN1RTOe-GdyK6yRxaqYR8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1019025687758-0c0rmv9asqfva3uemv3qh1l9vk8lilnb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
